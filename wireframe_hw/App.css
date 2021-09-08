@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: grid;
+  grid-template: repeat(3, 1fr)/ repeat(4, 1fr);
+  background-color: rgb(245, 202, 239); 
+  border: 1px solid rgb(0, 1, 0);
+  gap: 10px; 
+  padding: 10px;
+  height: 100vh;
+}
+
+.box__container{
+  border: 1px solid rgb(10, 12, 11);
+  background-color: azure;
+  /* margin: 10px; */
+
+  
+}
+
+.dash__container{
+  border: 1px solid rgb(141, 10, 10);
+  /* margin: 10px; */
+  background-color: azure;
+  list-style: none;
+  grid-column: 1/2;
+  grid-row: 1/span 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.visitor__container{
+  border: 1px solid rgb(11, 14, 12);
+  /* margin: 10px; */
+background-color: azure;
+  grid-row: 2/span 2;
+  grid-column: 2/ span 3;
+  background-image: url("react.jpg");
+  background-size: 800px 300px;
+  display: inline-block;
+  content: "";
+}
