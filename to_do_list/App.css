@@ -1,0 +1,15 @@
+*{
+    background-image: url("notepad.png");
+    background-repeat: no-repeat;
+    
+  
+}
+
+.App{
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+    background: cornsilk;
+    font-size: 18px;
+    transition: 0.2s;
+}
